@@ -9,6 +9,7 @@
     "dev:local": "node scripts/local-dev.ts",
     "dev:convex": "convex dev",
     "build": "tsc -b && vite build",
+    "build:github-pages": "pnpm build && cp dist/index.html dist/404.html",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint-staged": "lint-staged",

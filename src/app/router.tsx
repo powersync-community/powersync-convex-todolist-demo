@@ -1,3 +1,4 @@
+import { appBasename } from '@/library/appBasename';
 import { Outlet, createBrowserRouter } from 'react-router-dom';
 import EntryPage from './page';
 import { LoginPage } from './views/auth/page';
@@ -20,37 +21,40 @@ export const AUTH_ROUTE = '/auth';
  */
 export const DEFAULT_ENTRY_ROUTE = '/views/todo-lists';
 
-export const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <EntryPage />
-  },
-  {
-    path: AUTH_ROUTE,
-    element: <LoginPage />
-  },
-  {
-    element: (
-      <AuthenticatedRoute>
-        <ViewsLayout>
-          <Outlet />
-        </ViewsLayout>
-      </AuthenticatedRoute>
-    ),
-    children: [
-      {
-        path: TODO_LISTS_ROUTE,
-        element: <TodoListsShell />,
-        children: [
-          { index: true, element: <TodoListsPage /> },
-          { path: 'archived', element: <TodoArchivedListsPage /> },
-          { path: ':id', element: <TodoListsModalLayout /> }
-        ]
-      },
-      {
-        path: SQL_CONSOLE_ROUTE,
-        element: <SQLConsolePage />
-      }
-    ]
-  }
-]);
+export const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <EntryPage />
+    },
+    {
+      path: AUTH_ROUTE,
+      element: <LoginPage />
+    },
+    {
+      element: (
+        <AuthenticatedRoute>
+          <ViewsLayout>
+            <Outlet />
+          </ViewsLayout>
+        </AuthenticatedRoute>
+      ),
+      children: [
+        {
+          path: TODO_LISTS_ROUTE,
+          element: <TodoListsShell />,
+          children: [
+            { index: true, element: <TodoListsPage /> },
+            { path: 'archived', element: <TodoArchivedListsPage /> },
+            { path: ':id', element: <TodoListsModalLayout /> }
+          ]
+        },
+        {
+          path: SQL_CONSOLE_ROUTE,
+          element: <SQLConsolePage />
+        }
+      ]
+    }
+  ],
+  { basename: appBasename() }
+);

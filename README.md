@@ -89,6 +89,18 @@ Demo mode is stored in `sessionStorage` for the current browser tab so navigatio
 
 Use `?demo=false` or the `Demo mode` menu in the app bar to clear demo mode for the current browser tab. Disabling demo mode also calls `disconnectAndClear()` so local demo data is removed before returning to the sign-in page.
 
+### GitHub Pages
+
+Pushes to `main` deploy a static build to GitHub Pages via [`.github/workflows/deploy.yaml`](./.github/workflows/deploy.yaml). The live demo uses demo mode only — open it with `?demo=true`:
+
+**https://powersync-community.github.io/powersync-convex-todolist-demo/?demo=true**
+
+To build locally the same way CI does:
+
+```bash
+VITE_GITHUB_PAGES_BASE_PATH=/powersync-convex-todolist-demo pnpm run build:github-pages
+```
+
 ### Services and Ports
 
 | Service           | Default URL             | Description                                    |

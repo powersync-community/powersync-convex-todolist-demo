@@ -4,8 +4,12 @@ import { fileURLToPath, URL } from 'url';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
+// Set VITE_GITHUB_PAGES_BASE_PATH to your repo name when deploying to GitHub Pages.
+const githubPagesBasePath = process.env.VITE_GITHUB_PAGES_BASE_PATH?.replace(/\/$/, '') ?? '';
+
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: githubPagesBasePath ? `${githubPagesBasePath}/` : '/',
   root: 'src',
   build: {
     outDir: '../dist',
@@ -15,7 +19,7 @@ export default defineConfig({
     emptyOutDir: true
   },
   define: {
-    process: {}
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV ?? 'development')
   },
   resolve: {
     alias: [
