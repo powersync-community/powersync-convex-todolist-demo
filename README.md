@@ -2,6 +2,20 @@
 
 A React todo-list demo that syncs data between Convex and local SQLite via PowerSync. **No separate Node.js backend required** — auth is handled by Convex Auth and mutations are called directly via the Convex client.
 
+## Live demo
+
+Try the hosted build in **demo mode** (local-only SQLite, no Convex or PowerSync services required):
+
+**[Open live demo](https://powersync-community.github.io/powersync-convex-todolist-demo/?demo=true)**
+
+<iframe
+  src="https://powersync-community.github.io/powersync-convex-todolist-demo/?demo=true"
+  width="100%"
+  height="720"
+  style="border: 1px solid #e2e8f0; border-radius: 8px;"
+  title="PowerSync + Convex todo list demo"
+></iframe>
+
 ## What's Included
 
 ### Frontend
@@ -91,9 +105,7 @@ Use `?demo=false` or the `Demo mode` menu in the app bar to clear demo mode for 
 
 ### GitHub Pages
 
-Pushes to `main` deploy a static build to GitHub Pages via [`.github/workflows/deploy.yaml`](./.github/workflows/deploy.yaml). The live demo uses demo mode only — open it with `?demo=true`:
-
-**https://powersync-community.github.io/powersync-convex-todolist-demo/?demo=true**
+Pushes to `main` deploy a static build to GitHub Pages via [`.github/workflows/deploy.yaml`](./.github/workflows/deploy.yaml). See [Live demo](#live-demo) above.
 
 To build locally the same way CI does:
 
