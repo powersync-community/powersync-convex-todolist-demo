@@ -1,13 +1,9 @@
 name: Deploy
 
-# TODO(revert-pages-trigger): Temporary — deploy GitHub Pages on every push for demo previews.
-# Revert to main-only when done:
-#   on:
-#     push:
-#       branches:
-#         - main
 on:
   push:
+    branches:
+      - main
 
 jobs:
   build:
