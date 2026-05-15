@@ -13,7 +13,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint-staged": "lint-staged",
-    "prepare": "husky",
+    "prepare:husky": "husky",
     "preview": "vite preview",
     "start": "pnpm build && pnpm preview",
     "prepare:isolated:test": "pnpm exec playwright install --with-deps",
