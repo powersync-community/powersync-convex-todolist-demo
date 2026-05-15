@@ -1,0 +1,18 @@
+# Ignore dependencies and generated build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Local/editor state
+.git/
+.idea/
+.fleet/
+.vscode/
+
+# Generated or external assets
+public/icons/
+powersync/docker/setup_data/
+
+# Lockfiles are easier to review without formatter churn
+pnpm-lock.yaml
