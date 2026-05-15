@@ -1,0 +1,26 @@
+import { ConvexAuthProvider } from '@convex-dev/auth/react';
+import CssBaseline from '@mui/material/CssBaseline';
+import { ConvexReactClient } from 'convex/react';
+import { RouterProvider } from 'react-router-dom';
+import { SystemProvider } from '../components/providers/SystemProvider';
+import { ThemeProviderContainer } from '../components/providers/ThemeProviderContainer';
+import { DemoModeProvider } from '../library/demoMode';
+import { router } from './router';
+
+const convex = new ConvexReactClient(import.meta.env.VITE_CONVEX_URL ?? 'http://127.0.0.1:3210');
+
+/** Root application component that wires together theme, auth, PowerSync, and routing providers. */
+export function App() {
+  return (
+    <ThemeProviderContainer>
+      <CssBaseline />
+      <ConvexAuthProvider client={convex}>
+        <DemoModeProvider>
+          <SystemProvider>
+            <RouterProvider router={router} />
+          </SystemProvider>
+        </DemoModeProvider>
+      </ConvexAuthProvider>
+    </ThemeProviderContainer>
+  );
+}

@@ -19,7 +19,7 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "convex", "scripts", "vite.config.ts"],
+  "include": ["src", "e2e", "convex", "scripts", "vite.config.mts"],
   "exclude": ["node_modules"],
   "references": []
 }

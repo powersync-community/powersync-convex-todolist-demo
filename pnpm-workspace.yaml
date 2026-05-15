@@ -1,6 +1,6 @@
 packages:
   - .
 allowBuilds:
-  '@journeyapps/wa-sqlite': set this to true or false
-  esbuild: set this to true or false
-  yarn: set this to true or false
+  '@journeyapps/wa-sqlite': true
+  esbuild: false
+  yarn: false
