@@ -5,6 +5,7 @@ import {
   formatListTaskSummary,
   listPriorityCaption
 } from '@/components/todo-lists/listFormUtils';
+import { publicAssetPath } from '@/library/publicAsset';
 import { useUserId } from '@/library/powersync/useUserId';
 import { Box, Grid, List, Paper, Typography } from '@mui/material';
 import { usePowerSync, useQuery } from '@powersync/react';
@@ -61,9 +62,9 @@ const SECTIONS: SectionConfig[] = [
 ];
 
 const BUCKET_AVATAR: Record<ListBucket, string> = {
-  empty: '/thinking-dino.svg',
-  active: '/busy-dino.svg',
-  allDone: '/thug-dino.svg'
+  empty: publicAssetPath('thinking-dino.svg'),
+  active: publicAssetPath('busy-dino.svg'),
+  allDone: publicAssetPath('thug-dino.svg')
 };
 
 /** Active todo-list board grouped into empty, pending, and completed sections. */
@@ -139,7 +140,8 @@ export function TodoListsWidget() {
                 display: 'flex',
                 flexDirection: 'column',
                 bgcolor: 'background.paper'
-              }}>
+              }}
+            >
               <Box
                 sx={{
                   mb: 2,
@@ -148,7 +150,8 @@ export function TodoListsWidget() {
                   justifyContent: 'space-between',
                   gap: 1.5,
                   flexWrap: 'wrap'
-                }}>
+                }}
+              >
                 <Box sx={{ flex: '1 1 auto', minWidth: 0 }}>
                   <Typography variant="subtitle1" sx={{ fontWeight: 800 }}>
                     {section.title}

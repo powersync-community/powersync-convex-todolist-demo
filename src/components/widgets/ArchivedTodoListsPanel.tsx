@@ -3,9 +3,10 @@ import { TodoListWithCountsRow } from '@/app/views/todo-lists/TodoArchivedListsP
 import { formatListTaskSummary, listPriorityCaption } from '@/components/todo-lists/listFormUtils';
 import { List, Paper, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import { publicAssetPath } from '@/library/publicAsset';
 import { ListItemWidget } from './ListItemWidget';
 
-const ARCHIVED_AVATAR = '/thinking-dino.svg';
+const ARCHIVED_AVATAR = publicAssetPath('thinking-dino.svg');
 
 export type ArchivedTodoListsPanelProps = {
   /** Rows from `useQuery` (lists + per-list todo counts). */

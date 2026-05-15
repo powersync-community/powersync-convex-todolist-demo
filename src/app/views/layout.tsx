@@ -32,6 +32,7 @@ import {
 import React from 'react';
 
 import { AUTH_ROUTE, SQL_CONSOLE_ROUTE, TODO_LISTS_ARCHIVED_ROUTE, TODO_LISTS_ROUTE } from '@/app/router';
+import { publicAssetPath } from '@/library/publicAsset';
 import { useNavigationPanel } from '@/components/navigation/NavigationPanelContext';
 import { useDemoMode } from '@/library/demoMode';
 import { useAuthActions } from '@convex-dev/auth/react';
@@ -146,7 +147,8 @@ export default function ViewsLayout({ children }: { children: React.ReactNode })
             color="primary"
             aria-label="menu"
             sx={{ mr: 2, bgcolor: 'rgba(37, 99, 235, 0.08)' }}
-            onClick={() => setOpenDrawer(!openDrawer)}>
+            onClick={() => setOpenDrawer(!openDrawer)}
+          >
             <MenuIcon />
           </IconButton>
           <Box sx={{ flexGrow: 1 }}>
@@ -167,7 +169,8 @@ export default function ViewsLayout({ children }: { children: React.ReactNode })
               syncStatus?.dataFlowStatus.downloading ? 'Downloading' : null
             ]
               .filter(Boolean)
-              .join('. ')}>
+              .join('. ')}
+          >
             <Box
               sx={{
                 height: { xs: 0, sm: 14 },
@@ -177,7 +180,8 @@ export default function ViewsLayout({ children }: { children: React.ReactNode })
                 justifyContent: 'center',
                 mb: -0.75,
                 lineHeight: 0
-              }}>
+              }}
+            >
               <KeyboardArrowUpIcon
                 sx={{
                   fontSize: '1rem',
@@ -194,7 +198,8 @@ export default function ViewsLayout({ children }: { children: React.ReactNode })
                 alignItems: 'center',
                 lineHeight: 0,
                 color: syncStatus?.connected ? 'success.main' : 'error.main'
-              }}>
+              }}
+            >
               {syncErrorText ? (
                 <Tooltip title={<span style={{ whiteSpace: 'pre-line' }}>{syncErrorText}</span>}>
                   <ErrorOutlineIcon color="error" sx={{ mr: 0.5, fontSize: '1.25rem' }} />
@@ -215,7 +220,8 @@ export default function ViewsLayout({ children }: { children: React.ReactNode })
                 justifyContent: 'center',
                 mt: -0.75,
                 lineHeight: 0
-              }}>
+              }}
+            >
               <KeyboardArrowDownIcon
                 sx={{
                   fontSize: '1rem',
@@ -228,7 +234,13 @@ export default function ViewsLayout({ children }: { children: React.ReactNode })
             </Box>
           </Box>
           {!isDemoMode ? (
-            <Button color="primary" variant="outlined" onClick={handleSignOut} startIcon={<LogoutIcon />} sx={{ ml: 2 }}>
+            <Button
+              color="primary"
+              variant="outlined"
+              onClick={handleSignOut}
+              startIcon={<LogoutIcon />}
+              sx={{ ml: 2 }}
+            >
               Logout
             </Button>
           ) : (
@@ -239,7 +251,8 @@ export default function ViewsLayout({ children }: { children: React.ReactNode })
                 size="small"
                 onClick={(event) => setDemoMenuAnchor(event.currentTarget)}
                 endIcon={<ExpandMoreIcon />}
-                sx={{ ml: 2, whiteSpace: 'nowrap' }}>
+                sx={{ ml: 2, whiteSpace: 'nowrap' }}
+              >
                 Demo mode
               </Button>
               <Menu
@@ -247,7 +260,8 @@ export default function ViewsLayout({ children }: { children: React.ReactNode })
                 open={Boolean(demoMenuAnchor)}
                 onClose={() => setDemoMenuAnchor(null)}
                 anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
-                transformOrigin={{ vertical: 'top', horizontal: 'right' }}>
+                transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+              >
                 <MenuItem onClick={() => void handleDisableDemoMode()}>Disable demo mode</MenuItem>
               </Menu>
             </>
@@ -264,12 +278,13 @@ export default function ViewsLayout({ children }: { children: React.ReactNode })
             borderRight: '1px solid',
             borderColor: 'divider'
           }
-        }}>
+        }}
+      >
         <Box sx={{ p: 3 }}>
-          <S.PowerSyncLogo alt="PowerSync Logo" width={190} height={54} src="/powersync-logo.svg" />
+          <S.PowerSyncLogo alt="PowerSync Logo" width={190} height={54} src={publicAssetPath('powersync-logo.svg')} />
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mt: 2 }}>
             <Avatar
-              src="/convex-logo.svg"
+              src={publicAssetPath('convex-logo.svg')}
               alt="Convex"
               sx={{ bgcolor: 'rgba(255, 255, 255, 0.92)', width: 36, height: 36, p: 0.75 }}
             />
@@ -293,7 +308,8 @@ export default function ViewsLayout({ children }: { children: React.ReactNode })
                 onClick={async () => {
                   navigate(item.path);
                   setOpenDrawer(false);
-                }}>
+                }}
+              >
                 <ListItemIcon>{item.icon()}</ListItemIcon>
                 <ListItemText primary={item.title} />
               </ListItemButton>

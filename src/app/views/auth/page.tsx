@@ -17,6 +17,7 @@ import { useAuthActions } from '@convex-dev/auth/react';
 import { useFormik, type FormikHelpers } from 'formik';
 import { useNavigate } from 'react-router-dom';
 import { useDemoMode } from '@/library/demoMode';
+import { publicAssetPath } from '@/library/publicAsset';
 import { useConvexAuth } from 'convex/react';
 import { DEFAULT_ENTRY_ROUTE } from '../../router';
 
@@ -64,7 +65,7 @@ function DemoBrandLogos() {
     >
       <Box
         component="img"
-        src="/powersync-logo.svg"
+        src={publicAssetPath('powersync-logo.svg')}
         alt="PowerSync"
         sx={{
           width: { xs: 138, md: 152, lg: 304 },
@@ -76,7 +77,7 @@ function DemoBrandLogos() {
       />
       <Box
         component="img"
-        src="/convex-logo.svg"
+        src={publicAssetPath('convex-logo.svg')}
         alt="Convex"
         sx={{
           width: { xs: 118, md: 132, lg: 264 },
@@ -109,7 +110,7 @@ function AuthHeroPanel() {
         sx={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: 'url(/tarpit.png)',
+          backgroundImage: `url(${publicAssetPath('tarpit.png')})`,
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center bottom',
           backgroundSize: 'cover',
@@ -121,7 +122,8 @@ function AuthHeroPanel() {
         sx={{
           position: 'absolute',
           inset: 0,
-          background: 'linear-gradient(180deg, rgba(7, 11, 20, 0.25) 0%, rgba(7, 11, 20, 0.05) 42%, rgba(7, 11, 20, 0.55) 88%, rgba(7, 11, 20, 0.82) 100%)',
+          background:
+            'linear-gradient(180deg, rgba(7, 11, 20, 0.25) 0%, rgba(7, 11, 20, 0.05) 42%, rgba(7, 11, 20, 0.55) 88%, rgba(7, 11, 20, 0.82) 100%)',
           pointerEvents: 'none'
         }}
       />
@@ -155,7 +157,10 @@ function AuthHeroPanel() {
           >
             Escape the network tarpit
           </Typography>
-          <Stack spacing={1.25} sx={{ color: 'rgba(226, 232, 240, 0.88)', fontSize: '1.05rem', lineHeight: 1.6, fontWeight: 400 }}>
+          <Stack
+            spacing={1.25}
+            sx={{ color: 'rgba(226, 232, 240, 0.88)', fontSize: '1.05rem', lineHeight: 1.6, fontWeight: 400 }}
+          >
             <Typography sx={{ color: 'inherit', fontSize: 'inherit', lineHeight: 'inherit', fontWeight: 'inherit' }}>
               Automatically sync your backend database with in-app SQLite.
             </Typography>
@@ -179,7 +184,7 @@ function AuthHeroPanel() {
           </Box>
           <Box
             component="img"
-            src="/dataflow.png"
+            src={publicAssetPath('dataflow.png')}
             alt="Convex to PowerSync to SQLite data flow"
             sx={{
               width: '100%',
@@ -375,7 +380,14 @@ export function LoginPage() {
               required
               disabled={formik.isSubmitting}
             />
-            <Button type="submit" fullWidth variant="contained" size="large" sx={{ mt: 2.5 }} disabled={formik.isSubmitting}>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              size="large"
+              sx={{ mt: 2.5 }}
+              disabled={formik.isSubmitting}
+            >
               {formik.isSubmitting ? <CircularProgress size={24} /> : 'Sign In'}
             </Button>
           </TabPanel>
@@ -406,7 +418,14 @@ export function LoginPage() {
               disabled={formik.isSubmitting}
               helperText="Password must be at least 8 characters"
             />
-            <Button type="submit" fullWidth variant="contained" size="large" sx={{ mt: 2.5 }} disabled={formik.isSubmitting}>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              size="large"
+              sx={{ mt: 2.5 }}
+              disabled={formik.isSubmitting}
+            >
               {formik.isSubmitting ? <CircularProgress size={24} /> : 'Sign Up'}
             </Button>
           </TabPanel>
