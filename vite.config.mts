@@ -1,4 +1,3 @@
-/// <reference types="vitest" />
 import { fileURLToPath, URL } from 'url';
 
 import react from '@vitejs/plugin-react';
@@ -42,21 +41,5 @@ export default defineConfig({
   plugins: [react()],
   worker: {
     format: 'es'
-  },
-  test: {
-    globals: true,
-    include: ['../e2e/**/*.test.{ts,tsx}'],
-    maxConcurrency: 1,
-    browser: {
-      enabled: true,
-      isolate: true,
-      provider: 'playwright',
-      headless: true,
-      instances: [
-        {
-          browser: 'chromium'
-        }
-      ]
-    }
   }
 });
