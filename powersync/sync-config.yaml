@@ -23,8 +23,8 @@ streams:
         FROM todos
         WHERE list_uuid IN user_lists
   archived_user_data:
-    # We don't sync archvied data, but we allow users to condiftionally subsribe to it for a period of time.
-    # IMPROVE ME:: This should be filtered further in furtue.
+    # We don't sync archived data, but we allow users to conditionally subscribe to it for a period of time.
+    # IMPROVE ME:: This should be filtered further in future.
     with:
       # Extract the Convex user ID from the JWT subject
       # The Convex JWT Subject used for the user_id contains `[32 character user ID]|[user session ID]`
