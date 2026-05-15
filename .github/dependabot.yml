@@ -1,0 +1,30 @@
+version: 2
+
+updates:
+  # PowerSync, Journey Apps, and Convex npm packages only (package.json + pnpm-lock.yaml)
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: deps
+    labels:
+      - dependencies
+    allow:
+      - dependency-name: '@powersync/*'
+      - dependency-name: powersync
+      - dependency-name: '@journeyapps/*'
+      - dependency-name: '@convex-dev/*'
+      - dependency-name: convex
+    groups:
+      powersync:
+        patterns:
+          - '@powersync/*'
+          - powersync
+          - '@journeyapps/*'
+      convex:
+        patterns:
+          - '@convex-dev/*'
+          - convex
