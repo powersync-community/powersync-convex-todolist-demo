@@ -8,14 +8,6 @@ Try the hosted build in **demo mode** (local-only SQLite, no Convex or PowerSync
 
 **[Open live demo](https://powersync-community.github.io/powersync-convex-todolist-demo/?demo=true)**
 
-<iframe
-  src="https://powersync-community.github.io/powersync-convex-todolist-demo/?demo=true"
-  width="100%"
-  height="720"
-  style="border: 1px solid #e2e8f0; border-radius: 8px;"
-  title="PowerSync + Convex todo list demo"
-></iframe>
-
 ## What's Included
 
 ### Frontend
@@ -77,6 +69,14 @@ Mutations start as local SQLite writes in the client. PowerSync queues those wri
 
 ## Quick Start
 
+Create a new project from this template with `create-convex`:
+
+```bash
+pnpx create-convex@latest -t powersync-community/powersync-convex-todolist-demo
+```
+
+Or, if you have cloned this repository directly, install dependencies:
+
 ```bash
 pnpm install
 ```
@@ -102,16 +102,6 @@ For static hosting environments such as GitHub Pages, open the app with `?demo=t
 Demo mode is stored in `sessionStorage` for the current browser tab so navigation inside the app does not need to keep the query parameter. The app uses a fixed local demo user ID, seeds a starter list named `play around with demo` if the local `lists` table is empty, and still uses the same PowerSync SQLite APIs (`useQuery` and `PowerSyncDatabase.execute`) as the connected version.
 
 Use `?demo=false` or the `Demo mode` menu in the app bar to clear demo mode for the current browser tab. Disabling demo mode also calls `disconnectAndClear()` so local demo data is removed before returning to the sign-in page.
-
-### GitHub Pages
-
-Pushes to `main` deploy a static build to GitHub Pages via [`.github/workflows/deploy.yaml`](./.github/workflows/deploy.yaml). See [Live demo](#live-demo) above.
-
-To build locally the same way CI does:
-
-```bash
-VITE_GITHUB_PAGES_BASE_PATH=/powersync-convex-todolist-demo pnpm run build:github-pages
-```
 
 ### Services and Ports
 
