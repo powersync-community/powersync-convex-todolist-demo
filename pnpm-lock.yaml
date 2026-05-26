@@ -100,8 +100,8 @@ importers:
         specifier: ^1.52.0
         version: 1.60.0
       powersync:
-        specifier: ^0.9.4
-        version: 0.9.4(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)
+        specifier: ^0.9.5
+        version: 0.9.5(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)
       prettier:
         specifier: ^3.2.5
         version: 3.8.3
@@ -880,28 +880,28 @@ packages:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
 
-  '@oclif/core@4.11.2':
-    resolution: {integrity: sha512-LWDalCgy+hYyAkLa9sMIXMXk6ws5RzQhVnkmfXtVIIyEEYigbXQ/9/x+s76p53MiXxNc6SJB7lfwkPF+SdzfMQ==}
+  '@oclif/core@4.11.4':
+    resolution: {integrity: sha512-URwiQ5ALx/sJ2iH4vzXEd+H4K6NAI7LRs6Jag3hrgKEpGmaE6alfRC8qjO4GIgb6A3ACaJumqP9twi/M9ywdHQ==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-autocomplete@3.2.49':
-    resolution: {integrity: sha512-+rrAZ468bW/B9uVrn6sEnFYepy3M1N/BWht8mHzhFIFCIduPSoE+8MweROxZLOGBZrXGWt0iavuPQmy0eaXRfQ==}
+  '@oclif/plugin-autocomplete@3.2.50':
+    resolution: {integrity: sha512-SQRIJSYue/1tIn7X55W/97gTb8UkSoHeFAcBng2r2YMJyWj8uB1DtFl28D8BDXPQXPTiPK89hQGejoT7RdkR2w==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-commands@4.1.52':
-    resolution: {integrity: sha512-D0TtZffJEPlkP6pWbhDHG5Yr8nkMA04UX0CCG1VmcFBxSkPUOmG/9PRnPobo8fFahG72z8hqcBoq/jmptJgqCw==}
+  '@oclif/plugin-commands@4.1.55':
+    resolution: {integrity: sha512-SA7JLVj0UP3Q8LBpOD6WSYAdC8JTJqXQLWedXusaKPZEj+bdBV/j6pjyfgfUWBJzTErGi3PJqJG5AojymvD7Kw==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-help@6.2.48':
-    resolution: {integrity: sha512-nvGLBtUZUWrHfoAEDRsRZUHKVwptyZ6F+MErdVRLQBo3dja0GCZH8DE33dA7mBux2KOmbxGqop15gyud9HZYhQ==}
+  '@oclif/plugin-help@6.2.49':
+    resolution: {integrity: sha512-fEsO0YU7ThtzHE1RGuoHxFu/OGlqxm7PCfFp+U1PS8sde4E0cDqjVDuv78+VKrr45LpC5lWOApj7pm3FNfHrVA==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-plugins@5.4.67':
-    resolution: {integrity: sha512-hNSNSo3kGxWsU7aRICN82bmpgPkQmjr+SAMrFnlH3v9UchoIG9bBoj5DSSCsoDAShIU118h8xRBOhRyEzq4+Qg==}
+  '@oclif/plugin-plugins@5.4.69':
+    resolution: {integrity: sha512-cPpdnLDl0iNWEMcAsSgxdz4v/clERvu3xnWgmwBHImYjts/uq75XGYbkQG603e9wYZoinp3clB7U1/GLNxy5MA==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/table@0.5.7':
-    resolution: {integrity: sha512-iS7gXzOhUf2toij0pxkcD6sPnXzr/j4eLugHwjSKI2+WgytjUycP7A3i6OIvXDrIGMuq8+S7wgZ7tCC1I18q+Q==}
+  '@oclif/table@0.5.9':
+    resolution: {integrity: sha512-/bvSRF38rrZ8O3hsChEKb98bEpmY7GAMeMU5hRkt73RCEoAo1UuRKX4IO0zlkD6UooSs30LfEMJeSU2NZOkndA==}
     engines: {node: '>=18.0.0'}
 
   '@oslojs/asn1@1.0.0':
@@ -931,20 +931,20 @@ packages:
   '@popperjs/core@2.11.8':
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
 
-  '@powersync/cli-core@0.9.4':
-    resolution: {integrity: sha512-OVf0GWtKXP0zYXcME1PKXu7oextqToAt9K1H6owvzpAX+l5sDVBFLwvbC2Kg8sxZDeN1VjTNO/fl5Oqpl6kZnQ==}
+  '@powersync/cli-core@0.9.5':
+    resolution: {integrity: sha512-iwOgwlan3LqLz3KJrGksswO8V37XgrX1xWsGYRrCsu/31NqqkpUbwqdlAUVR4CI9tHGdWYRGTQklKOQaZ9UM/w==}
     engines: {node: '>=18.0.0'}
 
-  '@powersync/cli-plugin-config-edit@0.9.4':
-    resolution: {integrity: sha512-+2MzKsFScEQ3BmqqhQUKpBrwxRREc56tA+G13f6Q8M2NCTzlTnZREuxndT1Tb+j+iXdtHkblechBURUPYvNcnw==}
+  '@powersync/cli-plugin-config-edit@0.9.5':
+    resolution: {integrity: sha512-bOA+kqRpJz4ClL6U1gqGZbR49BIV5wcUFgHGJesn9sBz4LymiZZ6x0/bWqyX+CayrTMsDb9uRajw6Jjtjqfd3Q==}
     engines: {node: '>=18.0.0'}
 
-  '@powersync/cli-plugin-docker@0.9.4':
-    resolution: {integrity: sha512-3wSc2RUmAVBn8DldtTbtXdfemYkP8W9+O5AONA0PaqAONsHDmC8vtGZKVF7odGjGy9/p77X1xWvxrtoh43zYLA==}
+  '@powersync/cli-plugin-docker@0.9.5':
+    resolution: {integrity: sha512-Dfj5s74pSMqE5WmU7fyP5qKwGZhEqzyCE9DD/2T9X6EuJ1vCHVO/hCHJoZ87pRR4kvXz6QUULErn+aeEC7Gx7A==}
     engines: {node: '>=18.0.0'}
 
-  '@powersync/cli-schemas@0.9.4':
-    resolution: {integrity: sha512-qUoGdGZSCCXk8EANV724juPyeTq2K4dEHoVPFheZNxROQQzHFUyK+lgJpgcjpa/XF/PDArkfMcIckAJQuMMGfQ==}
+  '@powersync/cli-schemas@0.9.5':
+    resolution: {integrity: sha512-a4lLpKMs6TA5c/sDjHSZ0Sj6YNiQJjKlC1SqCjwhGOFahmlCFJ/Si1axYPsL+8yfyXjmcVO6Ty0cJpaKrt8cPQ==}
     engines: {node: '>=18.0.0'}
 
   '@powersync/common@1.53.1':
@@ -2274,8 +2274,8 @@ packages:
     resolution: {integrity: sha512-ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  npm@11.14.1:
-    resolution: {integrity: sha512-aopNZ0eEl6LbxoFcrXLmTEPzNBNxfiQnVgR9RmJBqzm+5h5pFoOmRljpRJbsXxocBeSl7GLcx3MoDf2UlEOjZw==}
+  npm@11.15.0:
+    resolution: {integrity: sha512-+k0tk7lRnpMUPnC7kTuU/yrV/mnFoPhJQ75VfLtZ6fwbzOVXaPsTE/Il9Pn1DHi482byMyqkHv/XsQ76mNjXLw==}
     engines: {node: ^20.17.0 || >=22.9.0}
     hasBin: true
     bundledDependencies:
@@ -2475,8 +2475,8 @@ packages:
     resolution: {integrity: sha512-dM0jVuXJPsDN6DvRpea484tCUaMiXWjuCn++HGTqUWzGDjv5tZkEZldAJ/UMlqRYGFrD/etByo4/xOuC/snX2A==}
     engines: {node: '>=20'}
 
-  powersync@0.9.4:
-    resolution: {integrity: sha512-azuZsGxFnSxvvcFKvLmRfyN/efHiLbnVBFynxLAEmj6m19ymOiE1usAKsnl1KZL7/ooiNa5YDXDVAR8oH+v2Bw==}
+  powersync@0.9.5:
+    resolution: {integrity: sha512-EWdmNi5qx+AF+XI6yy+orUxhUXXvTvmD27zuIBYlN12ZRZXqPSabCqc4pM0xdXOO+BHJ9zNTApWGYCCacGCFoQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -2667,8 +2667,8 @@ packages:
   secure-json-parse@4.1.0:
     resolution: {integrity: sha512-l4KnYfEyqYJxDwlNVyRfO2E4NTHfMKAWdUuA8J0yve2Dz/E/PdBepY03RvyJpssIpRFwJoCD55wA+mEDs6ByWA==}
 
-  semver@7.8.0:
-    resolution: {integrity: sha512-AcM7dV/5ul4EekoQ29Agm5vri8JNqRyj39o0qpX6vDF2GZrtutZl5RwgD1XnZjiTAfncsJhMI48QQH3sN87YNA==}
+  semver@7.8.1:
+    resolution: {integrity: sha512-rkVq3IXh+4FDGch+KwzX3aV9W3kO54GyEgpvBzSyctDA6Xtd7RJQV1xmXbeQp5v7+VzLOfVqiutSE6GICgPFvg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2791,8 +2791,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  thread-stream@4.1.0:
-    resolution: {integrity: sha512-Bw6h2iBDt16v6iHLChBIoVYU8CBo9GPsW8TG7h1hRVhqKhIkH6N8qkxNSmiOZTKsCLPbtWG4ViWLkU6KeKXpig==}
+  thread-stream@4.2.0:
+    resolution: {integrity: sha512-e2zZ96wSChazBsbENf/Pcm/4swHt2cEKQ92rhUjkL9GCKiTDJIaTBenjE/m9DXi0QBmTMDkFDdOomUy20A1tDQ==}
     engines: {node: '>=20'}
 
   tiny-jsonc@1.0.2:
@@ -2827,9 +2827,9 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  toad-cache@3.7.0:
-    resolution: {integrity: sha512-/m8M+2BJUpoJdgAHoG+baCwBT+tf2VraSfkBgl0Y00qIWt41DJ8R5B8nsEw0I58YwF5IZH6z24/2TobDKnqSWw==}
-    engines: {node: '>=12'}
+  toad-cache@3.7.1:
+    resolution: {integrity: sha512-5DXWzE4Vz7xNHsv+xQ+MGfJYyC78Aok3tEr0MNwHoRf7vZnga1mQXZ4/Nsodld4VR6Wd+VhfmqnNrsRJyYPfrQ==}
+    engines: {node: '>=20'}
 
   totalist@3.0.1:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
@@ -3056,6 +3056,18 @@ packages:
 
   ws@8.20.1:
     resolution: {integrity: sha512-It4dO0K5v//JtTXuPkfEOaI3uUN87iYPnqo/ZzqCoG3g8uhA66QUMs/SrM0YK7/NAu+r4LMh/9dq2A7k+rHs+w==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
+  ws@8.21.0:
+    resolution: {integrity: sha512-Vsp28b7DRcimFQvrqu2Wek3z1iYxDCWqHYB8Qsnk/S4RfaCQzPGPyBNuVjJV3cd6UiKtUtp6sNM77gWvzcCH+g==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -3801,7 +3813,7 @@ snapshots:
       '@tybys/wasm-util': 0.10.2
     optional: true
 
-  '@oclif/core@4.11.2':
+  '@oclif/core@4.11.4':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.17.0
@@ -3814,7 +3826,7 @@ snapshots:
       is-wsl: 2.2.0
       lilconfig: 3.1.3
       minimatch: 10.2.5
-      semver: 7.8.0
+      semver: 7.8.1
       string-width: 4.2.3
       supports-color: 8.1.1
       tinyglobby: 0.2.16
@@ -3822,19 +3834,19 @@ snapshots:
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
 
-  '@oclif/plugin-autocomplete@3.2.49':
+  '@oclif/plugin-autocomplete@3.2.50':
     dependencies:
-      '@oclif/core': 4.11.2
+      '@oclif/core': 4.11.4
       ansis: 3.17.0
       debug: 4.4.3(supports-color@8.1.1)
       ejs: 3.1.10
     transitivePeerDependencies:
       - supports-color
 
-  '@oclif/plugin-commands@4.1.52':
+  '@oclif/plugin-commands@4.1.55':
     dependencies:
-      '@oclif/core': 4.11.2
-      '@oclif/table': 0.5.7
+      '@oclif/core': 4.11.4
+      '@oclif/table': 0.5.9
       lodash: 4.18.1
       object-treeify: 4.0.1
     transitivePeerDependencies:
@@ -3842,27 +3854,27 @@ snapshots:
       - react-devtools-core
       - utf-8-validate
 
-  '@oclif/plugin-help@6.2.48':
+  '@oclif/plugin-help@6.2.49':
     dependencies:
-      '@oclif/core': 4.11.2
+      '@oclif/core': 4.11.4
 
-  '@oclif/plugin-plugins@5.4.67':
+  '@oclif/plugin-plugins@5.4.69':
     dependencies:
-      '@oclif/core': 4.11.2
+      '@oclif/core': 4.11.4
       ansis: 3.17.0
       debug: 4.4.3(supports-color@8.1.1)
-      npm: 11.14.1
+      npm: 11.15.0
       npm-package-arg: 11.0.3
       npm-run-path: 5.3.0
       object-treeify: 4.0.1
-      semver: 7.8.0
+      semver: 7.8.1
       validate-npm-package-name: 5.0.1
       which: 4.0.0
       yarn: 1.22.22
     transitivePeerDependencies:
       - supports-color
 
-  '@oclif/table@0.5.7':
+  '@oclif/table@0.5.9':
     dependencies:
       '@types/react': 18.3.28
       change-case: 5.4.4
@@ -3902,12 +3914,12 @@ snapshots:
 
   '@popperjs/core@2.11.8': {}
 
-  '@powersync/cli-core@0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
+  '@powersync/cli-core@0.9.5(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
     dependencies:
       '@journeyapps-labs/common-sdk': 1.0.2(@types/json-schema@7.0.15)
       '@journeyapps-labs/micro-errors': 1.0.1
-      '@oclif/core': 4.11.2
-      '@powersync/cli-schemas': 0.9.4(babel-plugin-macros@3.1.0)
+      '@oclif/core': 4.11.4
+      '@powersync/cli-schemas': 0.9.5(babel-plugin-macros@3.1.0)
       '@powersync/management-client': 0.0.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
       '@powersync/management-types': 0.0.5(babel-plugin-macros@3.1.0)
       '@powersync/service-client': 0.0.3(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
@@ -3917,10 +3929,10 @@ snapshots:
       - '@types/json-schema'
       - babel-plugin-macros
 
-  '@powersync/cli-plugin-config-edit@0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
+  '@powersync/cli-plugin-config-edit@0.9.5(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
     dependencies:
-      '@oclif/core': 4.11.2
-      '@powersync/cli-core': 0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
+      '@oclif/core': 4.11.4
+      '@powersync/cli-core': 0.9.5(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
       open: 11.0.0
       wait-port: 1.1.0
     transitivePeerDependencies:
@@ -3928,12 +3940,12 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  '@powersync/cli-plugin-docker@0.9.4(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)':
+  '@powersync/cli-plugin-docker@0.9.5(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)':
     dependencies:
       '@inquirer/prompts': 7.10.1(@types/node@25.7.0)
-      '@oclif/core': 4.11.2
-      '@powersync/cli-core': 0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
-      '@powersync/cli-schemas': 0.9.4(babel-plugin-macros@3.1.0)
+      '@oclif/core': 4.11.4
+      '@powersync/cli-core': 0.9.5(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
+      '@powersync/cli-schemas': 0.9.5(babel-plugin-macros@3.1.0)
       '@powersync/service-schema': 1.21.0
       '@powersync/service-types': 0.15.2(babel-plugin-macros@3.1.0)
       yaml: 2.9.0
@@ -3942,7 +3954,7 @@ snapshots:
       - '@types/node'
       - babel-plugin-macros
 
-  '@powersync/cli-schemas@0.9.4(babel-plugin-macros@3.1.0)':
+  '@powersync/cli-schemas@0.9.5(babel-plugin-macros@3.1.0)':
     dependencies:
       '@powersync/management-types': 0.0.5(babel-plugin-macros@3.1.0)
       '@powersync/service-schema': 1.21.0
@@ -4755,8 +4767,8 @@ snapshots:
       process-warning: 5.0.0
       rfdc: 1.4.1
       secure-json-parse: 4.1.0
-      semver: 7.8.0
-      toad-cache: 3.7.0
+      semver: 7.8.1
+      toad-cache: 3.7.1
 
   fastq@1.20.1:
     dependencies:
@@ -4874,7 +4886,7 @@ snapshots:
       type-fest: 4.41.0
       widest-line: 5.0.0
       wrap-ansi: 9.0.2
-      ws: 8.20.1
+      ws: 8.21.0
       yoga-wasm-web: 0.3.3
     optionalDependencies:
       '@types/react': 18.3.28
@@ -5147,14 +5159,14 @@ snapshots:
     dependencies:
       hosted-git-info: 7.0.2
       proc-log: 4.2.0
-      semver: 7.8.0
+      semver: 7.8.1
       validate-npm-package-name: 5.0.1
 
   npm-run-path@5.3.0:
     dependencies:
       path-key: 4.0.0
 
-  npm@11.14.1: {}
+  npm@11.15.0: {}
 
   oauth4webapi@3.8.6: {}
 
@@ -5262,7 +5274,7 @@ snapshots:
       real-require: 0.2.0
       safe-stable-stringify: 2.5.0
       sonic-boom: 4.2.1
-      thread-stream: 4.1.0
+      thread-stream: 4.2.0
 
   playwright-core@1.60.0: {}
 
@@ -5280,20 +5292,20 @@ snapshots:
 
   powershell-utils@0.1.0: {}
 
-  powersync@0.9.4(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0):
+  powersync@0.9.5(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0):
     dependencies:
       '@fastify/cors': 10.1.0
       '@inquirer/prompts': 7.10.1(@types/node@25.7.0)
       '@journeyapps-labs/common-utils': 1.0.1
-      '@oclif/core': 4.11.2
-      '@oclif/plugin-autocomplete': 3.2.49
-      '@oclif/plugin-commands': 4.1.52
-      '@oclif/plugin-help': 6.2.48
-      '@oclif/plugin-plugins': 5.4.67
-      '@powersync/cli-core': 0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
-      '@powersync/cli-plugin-config-edit': 0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
-      '@powersync/cli-plugin-docker': 0.9.4(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)
-      '@powersync/cli-schemas': 0.9.4(babel-plugin-macros@3.1.0)
+      '@oclif/core': 4.11.4
+      '@oclif/plugin-autocomplete': 3.2.50
+      '@oclif/plugin-commands': 4.1.55
+      '@oclif/plugin-help': 6.2.49
+      '@oclif/plugin-plugins': 5.4.69
+      '@powersync/cli-core': 0.9.5(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
+      '@powersync/cli-plugin-config-edit': 0.9.5(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
+      '@powersync/cli-plugin-docker': 0.9.5(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)
+      '@powersync/cli-schemas': 0.9.5(babel-plugin-macros@3.1.0)
       '@powersync/management-client': 0.0.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
       '@powersync/management-types': 0.0.5(babel-plugin-macros@3.1.0)
       '@powersync/service-sync-rules': 0.34.1
@@ -5528,7 +5540,7 @@ snapshots:
 
   secure-json-parse@4.1.0: {}
 
-  semver@7.8.0: {}
+  semver@7.8.1: {}
 
   server-only@0.0.1: {}
 
@@ -5634,7 +5646,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  thread-stream@4.1.0:
+  thread-stream@4.2.0:
     dependencies:
       real-require: 1.0.0
 
@@ -5661,7 +5673,7 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  toad-cache@3.7.0: {}
+  toad-cache@3.7.1: {}
 
   totalist@3.0.1: {}
 
@@ -5835,6 +5847,8 @@ snapshots:
   ws@8.18.0: {}
 
   ws@8.20.1: {}
+
+  ws@8.21.0: {}
 
   wsl-utils@0.3.1:
     dependencies:
