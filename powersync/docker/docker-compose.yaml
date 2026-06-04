@@ -12,11 +12,10 @@ include:
 services:
   powersync:
     restart: unless-stopped
-    # TODO update before merge
-    image: journeyapps/powersync-service:0.0.0-dev-20260514153539
+    image: journeyapps/powersync-service:latest
     # We change this in order to load the Convex secret, which is output after running the convex-keygen
     # Docker Compose service
-    entrypoint: ["/bin/sh", "-c"]
+    entrypoint: ['/bin/sh', '-c']
     command:
       - |
         export PS_CONVEX_DEPLOY_KEY=$$(cat /setup/deploy_key)
@@ -34,9 +33,9 @@ services:
       PS_JWKS_URL: http://backend:3211/.well-known/jwks.json
     healthcheck:
       test:
-        - "CMD"
-        - "node"
-        - "-e"
+        - 'CMD'
+        - 'node'
+        - '-e'
         - "fetch('http://localhost:${PS_PORT:-8080}/probes/liveness').then(r =>
           r.ok ? process.exit(0) : process.exit(1)).catch(() =>
           process.exit(1))"
@@ -44,7 +43,7 @@ services:
       timeout: 1s
       retries: 15
     ports:
-      - "${PS_PORT:-8080}:${PS_PORT:-8080}"
+      - '${PS_PORT:-8080}:${PS_PORT:-8080}'
     depends_on:
       mongo-rs-init:
         condition: service_completed_successfully
