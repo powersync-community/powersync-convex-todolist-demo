@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@convex-dev/auth':
-        specifier: ^0.0.92
-        version: 0.0.92(@auth/core@0.37.4)(convex@1.39.1(react@18.3.1))(react@18.3.1)
+        specifier: ^0.0.93
+        version: 0.0.93(@auth/core@0.37.4)(convex@1.40.0(react@18.3.1))(react@18.3.1)
       '@emotion/react':
         specifier: ^11.11.4
         version: 11.14.0(@types/react@18.3.28)(react@18.3.1)
@@ -30,17 +30,17 @@ importers:
         specifier: ^6.19.6
         version: 6.20.4(@mui/material@5.18.0(@emotion/react@11.14.0(@types/react@18.3.28)(react@18.3.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@18.3.28)(react@18.3.1))(@types/react@18.3.28)(react@18.3.1))(@types/react@18.3.28)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@mui/system@5.18.0(@emotion/react@11.14.0(@types/react@18.3.28)(react@18.3.1))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@18.3.28)(react@18.3.1))(@types/react@18.3.28)(react@18.3.1))(@types/react@18.3.28)(react@18.3.1))(@types/react@18.3.28)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@powersync/common':
-        specifier: ^1.53.1
-        version: 1.53.1
+        specifier: ^1.53.2
+        version: 1.53.2
       '@powersync/react':
         specifier: ^1.10.0
-        version: 1.10.0(@powersync/common@1.53.1)(react@18.3.1)
+        version: 1.10.0(@powersync/common@1.53.2)(react@18.3.1)
       '@powersync/web':
-        specifier: ^1.38.1
-        version: 1.38.1(@journeyapps/wa-sqlite@1.7.0)(@powersync/common@1.53.1)
+        specifier: ^1.38.2
+        version: 1.38.2(@journeyapps/wa-sqlite@1.7.0)(@powersync/common@1.53.2)
       convex:
-        specifier: ^1.39.1
-        version: 1.39.1(react@18.3.1)
+        specifier: ^1.40.0
+        version: 1.40.0(react@18.3.1)
       formik:
         specifier: ^2.4.6
         version: 2.4.9(@types/react@18.3.28)(react@18.3.1)
@@ -100,8 +100,8 @@ importers:
         specifier: ^1.52.0
         version: 1.60.0
       powersync:
-        specifier: ^0.9.4
-        version: 0.9.4(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)
+        specifier: ^0.9.6
+        version: 0.9.6(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)
       prettier:
         specifier: ^3.2.5
         version: 3.8.3
@@ -151,6 +151,10 @@ packages:
     resolution: {integrity: sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==}
     engines: {node: '>=6.9.0'}
 
+  '@babel/code-frame@7.29.7':
+    resolution: {integrity: sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw==}
+    engines: {node: '>=6.9.0'}
+
   '@babel/generator@7.29.1':
     resolution: {integrity: sha512-qsaF+9Qcm2Qv8SRIMMscAvG4O3lJ0F1GuMo5HR/Bp02LopNgnZBC/EkbevHFeGs4ls/oPz9v+Bsmzbkbe+0dUw==}
     engines: {node: '>=6.9.0'}
@@ -169,6 +173,10 @@ packages:
 
   '@babel/helper-validator-identifier@7.28.5':
     resolution: {integrity: sha512-qSs4ifwzKJSV39ucNjsvc6WVHs6b7S03sOh2OcHF9UHfVPqWWALUsNUVzhSBiItjRZoLHx7nIarVjqKVusUZ1Q==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-validator-identifier@7.29.7':
+    resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
 
   '@babel/parser@7.29.3':
@@ -192,8 +200,8 @@ packages:
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
 
-  '@convex-dev/auth@0.0.92':
-    resolution: {integrity: sha512-tNRIMTDxi2vrbT+3vz1FgNR1321IfIBDDBy59zul7E1DyzWQKoU0OzgFqWbiVm3o8gn0eQsYTU3UHNRX9kp3wQ==}
+  '@convex-dev/auth@0.0.93':
+    resolution: {integrity: sha512-z7g1lxcNz1Yck238i79rCIubT+rCM1V9sDUdUkZfthPmOarDx0uchut/Gy78xvjQTTSy1oW1XHECKxdclmdJQA==}
     hasBin: true
     peerDependencies:
       '@auth/core': ^0.37.0
@@ -737,9 +745,6 @@ packages:
       '@types/node':
         optional: true
 
-  '@journeyapps-labs/common-sdk@1.0.2':
-    resolution: {integrity: sha512-bPFrrSGdVnaVFe6ymc/desjZk02gQ8f0EKggrU1/BQIeFJvGeQ804iOJsIYmUVU1fv4qNmJD0mD0GUjxu93Z8g==}
-
   '@journeyapps-labs/common-sdk@1.0.4':
     resolution: {integrity: sha512-KNzIuYftc8+7qHGWkUnhJKfIBGx7Stbmk66vdhuCkZyIGKrmaqTQzbVDHUyBS/SO+2+K5T2W2QfSVT5zHij99A==}
 
@@ -754,9 +759,6 @@ packages:
 
   '@journeyapps-labs/micro-schema@1.0.3':
     resolution: {integrity: sha512-3n8d64jgDc/XJwGD8QRarfZs+JqEmuIbT9hEyY8nZR0IKsBkZEe6G9QYKm0tur6tisKs0YIcDcWjfzYcxRfmag==}
-
-  '@journeyapps-labs/micro-streaming@1.0.1':
-    resolution: {integrity: sha512-woWFNtPwKZwTz5NQ4RUecGOPXXO/W/KLkx8YOx9mvZ7XY3Lx1bDRpI1i6ZSBPeix+IBbl+bs394R0qlFliI1cg==}
 
   '@journeyapps-labs/micro-streaming@1.0.2':
     resolution: {integrity: sha512-CdgWC817TmbTof7IL6Oy0hCF1KCa6RXogh2uEbOYRNz+XwC1q3KQeChp38qQXvaZZtqdIsiMlZGiGGa638eTFw==}
@@ -880,28 +882,28 @@ packages:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
 
-  '@oclif/core@4.11.2':
-    resolution: {integrity: sha512-LWDalCgy+hYyAkLa9sMIXMXk6ws5RzQhVnkmfXtVIIyEEYigbXQ/9/x+s76p53MiXxNc6SJB7lfwkPF+SdzfMQ==}
+  '@oclif/core@4.11.4':
+    resolution: {integrity: sha512-URwiQ5ALx/sJ2iH4vzXEd+H4K6NAI7LRs6Jag3hrgKEpGmaE6alfRC8qjO4GIgb6A3ACaJumqP9twi/M9ywdHQ==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-autocomplete@3.2.49':
-    resolution: {integrity: sha512-+rrAZ468bW/B9uVrn6sEnFYepy3M1N/BWht8mHzhFIFCIduPSoE+8MweROxZLOGBZrXGWt0iavuPQmy0eaXRfQ==}
+  '@oclif/plugin-autocomplete@3.2.50':
+    resolution: {integrity: sha512-SQRIJSYue/1tIn7X55W/97gTb8UkSoHeFAcBng2r2YMJyWj8uB1DtFl28D8BDXPQXPTiPK89hQGejoT7RdkR2w==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-commands@4.1.52':
-    resolution: {integrity: sha512-D0TtZffJEPlkP6pWbhDHG5Yr8nkMA04UX0CCG1VmcFBxSkPUOmG/9PRnPobo8fFahG72z8hqcBoq/jmptJgqCw==}
+  '@oclif/plugin-commands@4.1.57':
+    resolution: {integrity: sha512-8BwSBLOPNZ0O4cpbcYztx2aP1JsE96/RTp4ykA5gzlo78O6W9x3GcSahjbkxY7Budlfdcxl4fzecqBZYY03wpw==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-help@6.2.48':
-    resolution: {integrity: sha512-nvGLBtUZUWrHfoAEDRsRZUHKVwptyZ6F+MErdVRLQBo3dja0GCZH8DE33dA7mBux2KOmbxGqop15gyud9HZYhQ==}
+  '@oclif/plugin-help@6.2.50':
+    resolution: {integrity: sha512-rNCG4hUm+kPXFbhJfAVk/fZ3OdWJYwBDASlyX8CqOLP0MssjIGl7iEgfZz7TMuZFa+KucupKU5NRSc0KWfPTQA==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/plugin-plugins@5.4.67':
-    resolution: {integrity: sha512-hNSNSo3kGxWsU7aRICN82bmpgPkQmjr+SAMrFnlH3v9UchoIG9bBoj5DSSCsoDAShIU118h8xRBOhRyEzq4+Qg==}
+  '@oclif/plugin-plugins@5.4.72':
+    resolution: {integrity: sha512-eZ9BWmKzO8BomPLbAcfYHUSm8gxgxYvyF/yeDIycDfxvY/hHA0ibqdQ6UBNi7lzuVOoWi4VmkY3wnvdXX3Fo1g==}
     engines: {node: '>=18.0.0'}
 
-  '@oclif/table@0.5.7':
-    resolution: {integrity: sha512-iS7gXzOhUf2toij0pxkcD6sPnXzr/j4eLugHwjSKI2+WgytjUycP7A3i6OIvXDrIGMuq8+S7wgZ7tCC1I18q+Q==}
+  '@oclif/table@0.5.9':
+    resolution: {integrity: sha512-/bvSRF38rrZ8O3hsChEKb98bEpmY7GAMeMU5hRkt73RCEoAo1UuRKX4IO0zlkD6UooSs30LfEMJeSU2NZOkndA==}
     engines: {node: '>=18.0.0'}
 
   '@oslojs/asn1@1.0.0':
@@ -931,30 +933,30 @@ packages:
   '@popperjs/core@2.11.8':
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
 
-  '@powersync/cli-core@0.9.4':
-    resolution: {integrity: sha512-OVf0GWtKXP0zYXcME1PKXu7oextqToAt9K1H6owvzpAX+l5sDVBFLwvbC2Kg8sxZDeN1VjTNO/fl5Oqpl6kZnQ==}
+  '@powersync/cli-core@0.9.6':
+    resolution: {integrity: sha512-iBqK0tNa4kpqovO2KoeSrYxAQD8WS2a8jOhZFvAq2XdUZrYHv9C4DxS6GKialyoXO2AeMfZVLRalV4HSuJdUCw==}
     engines: {node: '>=18.0.0'}
 
-  '@powersync/cli-plugin-config-edit@0.9.4':
-    resolution: {integrity: sha512-+2MzKsFScEQ3BmqqhQUKpBrwxRREc56tA+G13f6Q8M2NCTzlTnZREuxndT1Tb+j+iXdtHkblechBURUPYvNcnw==}
+  '@powersync/cli-plugin-config-edit@0.9.6':
+    resolution: {integrity: sha512-g+XKp8kuc95102t8r/zk4kLJUI/WfIVQzqn8/qfXwk9rW2rz5bLhdkSiPA+ynA/XjdnOJTRs8NKDQoIr0jnK0A==}
     engines: {node: '>=18.0.0'}
 
-  '@powersync/cli-plugin-docker@0.9.4':
-    resolution: {integrity: sha512-3wSc2RUmAVBn8DldtTbtXdfemYkP8W9+O5AONA0PaqAONsHDmC8vtGZKVF7odGjGy9/p77X1xWvxrtoh43zYLA==}
+  '@powersync/cli-plugin-docker@0.9.6':
+    resolution: {integrity: sha512-47PcHTT/T252cIrNZ/mnaSmHsC+MlNuR7a34tHLW47zfMSWRDJS5m7tekqB9mTr4Qz1280mMi1ezwhMzIHwcqA==}
     engines: {node: '>=18.0.0'}
 
-  '@powersync/cli-schemas@0.9.4':
-    resolution: {integrity: sha512-qUoGdGZSCCXk8EANV724juPyeTq2K4dEHoVPFheZNxROQQzHFUyK+lgJpgcjpa/XF/PDArkfMcIckAJQuMMGfQ==}
+  '@powersync/cli-schemas@0.9.6':
+    resolution: {integrity: sha512-uFAOyvQyy6HyCMtdr/o2B3CSOhiSMDvlayxOBO9SNi5Qs/oPh1k3F7fKHqI8/wabZOeeydy0upoKXJejNtb8cA==}
     engines: {node: '>=18.0.0'}
 
-  '@powersync/common@1.53.1':
-    resolution: {integrity: sha512-WAW/XQKpYPCBC66WIf9VjgLzA0YLpQg1TEMwzpCqKm6BuuLoHh6rLMb3PKJ84foFzUHcyF6thw7fB5VvwyguQw==}
+  '@powersync/common@1.53.2':
+    resolution: {integrity: sha512-y+GtaLL4imFIWOatErIAEozNZPcIkAcA24c2Mso124ZFStOEeP8LJTSMDxPhyK14mzSnBk2dSjrOAjNz7m2B8g==}
 
-  '@powersync/management-client@0.0.6':
-    resolution: {integrity: sha512-s5tvk/3JUw9B1ry0X8YH30sMscqf5xkbGK0XNSZ4X6o0ATtJWxxe97Fgg1HoNTfN2W7lMSyTyZnBdf9jsVOluQ==}
+  '@powersync/management-client@0.1.2':
+    resolution: {integrity: sha512-EwiIC/ZsPKX380J4LDMCPCjhqBEuXWt3XtSupgEqIf77y+O+0/gytrmsLVDRzqIEO997El+wRyzz5JHqPnRuFQ==}
 
-  '@powersync/management-types@0.0.5':
-    resolution: {integrity: sha512-sh1vRo1pq0D2oxijiyy0bHz1fIVkuiZkW+hTSyDSumNtbmT18ELe7+Mto29xlCzQ10oJ1YeyskUwpi+ZWzfuIQ==}
+  '@powersync/management-types@0.2.1':
+    resolution: {integrity: sha512-WbqAz9OyFwHLtrcBWpiieVKcTkp9tieZFa1mielFKmaFgLTEGSLuzWrFveCwCt9ZFnYo+G/vfSQkyXcK8sQtfg==}
 
   '@powersync/react@1.10.0':
     resolution: {integrity: sha512-orM29qocbF8zYTBM27j9nPNztyplpbNVaw8djpqxl8N2wESqHTbHOKpatg+Fa5aofgjzmrkiGwevJvCbiWYYWQ==}
@@ -962,8 +964,8 @@ packages:
       '@powersync/common': ^1.51.0
       react: '*'
 
-  '@powersync/service-client@0.0.3':
-    resolution: {integrity: sha512-K83tOFdjRyFh76c4CKViRFyGJfBH9wSvtOvF2PxtbajAIPMzZEeunpnFj3vphx8CQyrDFWkR8/1Qa0BiCo30xQ==}
+  '@powersync/service-client@0.0.6':
+    resolution: {integrity: sha512-7IDBDac4ePg9JNFtoL0aDrP5WmDWqw45/kGYl38pXkF6Km0VhVMEUjor/k2+oB05LiC0sfdHf5NXRDRUfK+maw==}
 
   '@powersync/service-jsonbig@0.17.13':
     resolution: {integrity: sha512-S90x8xgYYaiNBi6pnBbSxqiZlXUhEDb10HfTs5maLPVYIlDKXG5YlhP1DVv/csFNCuIuMC1F5ABXnN2rNjfajg==}
@@ -971,11 +973,8 @@ packages:
   '@powersync/service-schema@1.21.0':
     resolution: {integrity: sha512-m5QfEwOMk8Gu+6qNeWqS9RaNDNL8WQb3kaeMyo98egpasWPeQzD2BE1nhzJLpbsVSV9WchnNDDr1jRikvnRjLg==}
 
-  '@powersync/service-sync-rules@0.34.1':
-    resolution: {integrity: sha512-lHn4i3u5waEzGpbhx4A7AtOwXQ5e/Tuk5wS1/jmsbktl9a6mvKjB9UA2RY69/dUmBDbYzrdS+PGD9DBaHoFzCw==}
-
-  '@powersync/service-types@0.15.0':
-    resolution: {integrity: sha512-wIdHCT+vhwoJAMZ414/dwG8fd51+fEWnPbwShkwNE5XTwA0UGOT8aGyVZqzT8PT0sVos5famYYqG203Mjb7q6g==}
+  '@powersync/service-sync-rules@0.36.0':
+    resolution: {integrity: sha512-WlV4pOK1QwsM+6Bvy5Vkq04xmb0E1FcbWgqnQcbVJpKnSGul8osRDoIC/2JSNOauwxTqNXf0Ec8n6tzD9SSWOQ==}
 
   '@powersync/service-types@0.15.2':
     resolution: {integrity: sha512-GXQqCuTME+S1nV9CLbxtgYuAtMGFFLkDubm+DRTNGQqur8wBVzJp3haHCHFBVJ03Bhec+K7AIrB6CTii7b/HJg==}
@@ -983,12 +982,12 @@ packages:
   '@powersync/sync-config-tools@0.1.2':
     resolution: {integrity: sha512-/K/FgVRvOLPZgREKHHf4C9WZ7macygzVSuqW2GvLHaFjbRaEtSgENrCqF06+JdPP14UxkrPkLCyqXfpj9yNVAQ==}
 
-  '@powersync/web@1.38.1':
-    resolution: {integrity: sha512-mr5cd8CLgMJJ3QV5TvZyTSvr+ibc9ib6eU/5p9XQypxYG5fA/YrktSk2yTFzve4R0Y5xBLwRhPd61HeKYTjMjA==}
+  '@powersync/web@1.38.2':
+    resolution: {integrity: sha512-lAHpqTnywK/wy120HSS2O8IRSYYXDAVJV8opGGOcBQZwbCB1h8vHk4vJDyJ012iWq6onUJHnQOD95KHzGRR+pw==}
     hasBin: true
     peerDependencies:
       '@journeyapps/wa-sqlite': ^1.5.0
-      '@powersync/common': ^1.53.1
+      '@powersync/common': ^1.53.2
 
   '@remix-run/router@1.23.2':
     resolution: {integrity: sha512-Ic6m2U/rMjTkhERIa/0ZtXJP17QUi2CbWE7cqx4J58M8aA3QTfW+2UlQ4psvTX9IO1RfNVhK3pcpdjej7L+t2w==}
@@ -1498,8 +1497,8 @@ packages:
     resolution: {integrity: sha512-QxD8cf2eVqJOOz63z6JIN9BzvVs/dlySa5HGSBH5xtR8dPteIRQnBxxKqkNTiT6jbDTF6jAfrd4oMcND9RGbQg==}
     engines: {node: '>=0.6'}
 
-  brace-expansion@2.1.0:
-    resolution: {integrity: sha512-TN1kCZAgdgweJhWWpgKYrQaMNHcDULHkWwQIspdtjV4Y5aurRdZpjAqn6yX3FPqTA9ngHCc4hJxMAMgGfve85w==}
+  brace-expansion@2.1.1:
+    resolution: {integrity: sha512-WR1cURNjuvBLMZBMbqM0UoE+WAfdUcEV1ccD8PVBVOI+Z3ND4+SZbN8RsfT2bMuG1qwz5RFvPukSZm5fF2D5eA==}
 
   brace-expansion@5.0.6:
     resolution: {integrity: sha512-kLpxurY4Z4r9sgMsyG0Z9uzsBlgiU/EFKhj/h91/8yHu0edo7XuixOIH3VcJ8kkxs6/jPzoI6U9Vj3WqbMQ94g==}
@@ -1639,8 +1638,8 @@ packages:
     resolution: {integrity: sha512-rcQ1bsQO9799wq24uE5AM2tAILy4gXGIK/njFWcVQkGNZ96edlpY+A7bjwvzjYvLDyzmG1MmMLZhpcsb+klNMQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  convex@1.39.1:
-    resolution: {integrity: sha512-W+gVXA7BpRF1xLlS1kGTtKVaqd5yonqbGESKiPtIUXjV744GdDz8IG7RVsSY5KzHbgxuJBHKaJYk+92OIHTskQ==}
+  convex@1.40.0:
+    resolution: {integrity: sha512-jChWEB45q+9Ibryc7hg0l6hB1xA4zwE2y6ZhkhGP6oJkqYeiURkMagA2ZQZYMy1/T8PZ9ztoVJJtbL/+Ob851Q==}
     engines: {node: '>=18.0.0', npm: '>=7.0.0'}
     hasBin: true
     peerDependencies:
@@ -2034,8 +2033,8 @@ packages:
   js-tokens@9.0.1:
     resolution: {integrity: sha512-mxa9E9ITFOt0ban3j6L5MpjwegGz6lBQmM1IJkWeBZGcMxto50+eWdjC/52xDbS2vy0k7vIMK0Fe2wfL9OQSpQ==}
 
-  js-yaml@4.1.1:
-    resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
+  js-yaml@4.2.0:
+    resolution: {integrity: sha512-ePWsvanv0DWuDRsW8dnt+R4jQ31SCRCQ7hhNcPXZPsoBZiemuZNYGf7adZdqX2D86j6rvKp3RpCxVTSb8WQlOw==}
     hasBin: true
 
   jsesc@3.1.0:
@@ -2274,8 +2273,8 @@ packages:
     resolution: {integrity: sha512-ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  npm@11.14.1:
-    resolution: {integrity: sha512-aopNZ0eEl6LbxoFcrXLmTEPzNBNxfiQnVgR9RmJBqzm+5h5pFoOmRljpRJbsXxocBeSl7GLcx3MoDf2UlEOjZw==}
+  npm@11.16.0:
+    resolution: {integrity: sha512-A74XL8OxmcegZDMWPkWb5bEQppg8HdYwW3rBD2sPoS4UQHVajfaxBkqyzLeJ3wR0kZ+5xoTjItxXaF7eIXUsyw==}
     engines: {node: ^20.17.0 || >=22.9.0}
     hasBin: true
     bundledDependencies:
@@ -2475,8 +2474,8 @@ packages:
     resolution: {integrity: sha512-dM0jVuXJPsDN6DvRpea484tCUaMiXWjuCn++HGTqUWzGDjv5tZkEZldAJ/UMlqRYGFrD/etByo4/xOuC/snX2A==}
     engines: {node: '>=20'}
 
-  powersync@0.9.4:
-    resolution: {integrity: sha512-azuZsGxFnSxvvcFKvLmRfyN/efHiLbnVBFynxLAEmj6m19ymOiE1usAKsnl1KZL7/ooiNa5YDXDVAR8oH+v2Bw==}
+  powersync@0.9.6:
+    resolution: {integrity: sha512-EoXlqOTKnhtenH45p3XL1s/PJKGzqH3ZGcbi1eLEgxfo/s0Yvy45/jRZrr3PoOiBCyer3CPdiSeJhccm2cdM3g==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -2667,8 +2666,8 @@ packages:
   secure-json-parse@4.1.0:
     resolution: {integrity: sha512-l4KnYfEyqYJxDwlNVyRfO2E4NTHfMKAWdUuA8J0yve2Dz/E/PdBepY03RvyJpssIpRFwJoCD55wA+mEDs6ByWA==}
 
-  semver@7.8.0:
-    resolution: {integrity: sha512-AcM7dV/5ul4EekoQ29Agm5vri8JNqRyj39o0qpX6vDF2GZrtutZl5RwgD1XnZjiTAfncsJhMI48QQH3sN87YNA==}
+  semver@7.8.1:
+    resolution: {integrity: sha512-rkVq3IXh+4FDGch+KwzX3aV9W3kO54GyEgpvBzSyctDA6Xtd7RJQV1xmXbeQp5v7+VzLOfVqiutSE6GICgPFvg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2791,8 +2790,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  thread-stream@4.1.0:
-    resolution: {integrity: sha512-Bw6h2iBDt16v6iHLChBIoVYU8CBo9GPsW8TG7h1hRVhqKhIkH6N8qkxNSmiOZTKsCLPbtWG4ViWLkU6KeKXpig==}
+  thread-stream@4.2.0:
+    resolution: {integrity: sha512-e2zZ96wSChazBsbENf/Pcm/4swHt2cEKQ92rhUjkL9GCKiTDJIaTBenjE/m9DXi0QBmTMDkFDdOomUy20A1tDQ==}
     engines: {node: '>=20'}
 
   tiny-jsonc@1.0.2:
@@ -2811,6 +2810,10 @@ packages:
     resolution: {integrity: sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==}
     engines: {node: '>=12.0.0'}
 
+  tinyglobby@0.2.17:
+    resolution: {integrity: sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==}
+    engines: {node: '>=12.0.0'}
+
   tinypool@1.1.1:
     resolution: {integrity: sha512-Zba82s87IFq9A9XmjiX5uZA/ARWDrB03OHlq+Vw1fSdt0I+4/Kutwy8BP4Y/y/aORMo61FQ0vIb5j44vSo5Pkg==}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -2827,9 +2830,9 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  toad-cache@3.7.0:
-    resolution: {integrity: sha512-/m8M+2BJUpoJdgAHoG+baCwBT+tf2VraSfkBgl0Y00qIWt41DJ8R5B8nsEw0I58YwF5IZH6z24/2TobDKnqSWw==}
-    engines: {node: '>=12'}
+  toad-cache@3.7.1:
+    resolution: {integrity: sha512-5DXWzE4Vz7xNHsv+xQ+MGfJYyC78Aok3tEr0MNwHoRf7vZnga1mQXZ4/Nsodld4VR6Wd+VhfmqnNrsRJyYPfrQ==}
+    engines: {node: '>=20'}
 
   totalist@3.0.1:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
@@ -2866,10 +2869,6 @@ packages:
 
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
-
-  uuid@11.1.1:
-    resolution: {integrity: sha512-vIYxrBCC/N/K+Js3qSN88go7kIfNPssr/hHCesKCQNAjmgvYS2oqr69kIufEG+O4+PfezOH4EbIeHCfFov8ZgQ==}
-    hasBin: true
 
   uuid@13.0.2:
     resolution: {integrity: sha512-vzi9uRZ926x4XV73S/4qQaTwPXM2JBj6/6lI/byHH1jOpCzb0zDbfytgA9LcN/hzb2l7WQSQnxITOVx5un/wGw==}
@@ -3042,8 +3041,8 @@ packages:
     resolution: {integrity: sha512-42AtmgqjV+X1VpdOfyTGOYRi0/zsoLqtXQckTmqTeybT+BDIbM/Guxo7x3pE2vtpr1ok6xRqM9OpBe+Jyoqyww==}
     engines: {node: '>=18'}
 
-  ws@8.18.0:
-    resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
+  ws@8.20.1:
+    resolution: {integrity: sha512-It4dO0K5v//JtTXuPkfEOaI3uUN87iYPnqo/ZzqCoG3g8uhA66QUMs/SrM0YK7/NAu+r4LMh/9dq2A7k+rHs+w==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -3054,8 +3053,8 @@ packages:
       utf-8-validate:
         optional: true
 
-  ws@8.20.1:
-    resolution: {integrity: sha512-It4dO0K5v//JtTXuPkfEOaI3uUN87iYPnqo/ZzqCoG3g8uhA66QUMs/SrM0YK7/NAu+r4LMh/9dq2A7k+rHs+w==}
+  ws@8.21.0:
+    resolution: {integrity: sha512-Vsp28b7DRcimFQvrqu2Wek3z1iYxDCWqHYB8Qsnk/S4RfaCQzPGPyBNuVjJV3cd6UiKtUtp6sNM77gWvzcCH+g==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -3120,7 +3119,7 @@ snapshots:
   '@apidevtools/json-schema-ref-parser@14.2.1(@types/json-schema@7.0.15)':
     dependencies:
       '@types/json-schema': 7.0.15
-      js-yaml: 4.1.1
+      js-yaml: 4.2.0
 
   '@auth/core@0.37.4':
     dependencies:
@@ -3133,6 +3132,12 @@ snapshots:
   '@babel/code-frame@7.29.0':
     dependencies:
       '@babel/helper-validator-identifier': 7.28.5
+      js-tokens: 4.0.0
+      picocolors: 1.1.1
+
+  '@babel/code-frame@7.29.7':
+    dependencies:
+      '@babel/helper-validator-identifier': 7.29.7
       js-tokens: 4.0.0
       picocolors: 1.1.1
 
@@ -3157,6 +3162,8 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.28.5': {}
 
+  '@babel/helper-validator-identifier@7.29.7': {}
+
   '@babel/parser@7.29.3':
     dependencies:
       '@babel/types': 7.29.0
@@ -3165,13 +3172,13 @@ snapshots:
 
   '@babel/template@7.28.6':
     dependencies:
-      '@babel/code-frame': 7.29.0
+      '@babel/code-frame': 7.29.7
       '@babel/parser': 7.29.3
       '@babel/types': 7.29.0
 
   '@babel/traverse@7.29.0':
     dependencies:
-      '@babel/code-frame': 7.29.0
+      '@babel/code-frame': 7.29.7
       '@babel/generator': 7.29.1
       '@babel/helper-globals': 7.28.0
       '@babel/parser': 7.29.3
@@ -3186,12 +3193,12 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@convex-dev/auth@0.0.92(@auth/core@0.37.4)(convex@1.39.1(react@18.3.1))(react@18.3.1)':
+  '@convex-dev/auth@0.0.93(@auth/core@0.37.4)(convex@1.40.0(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@auth/core': 0.37.4
       '@oslojs/crypto': 1.0.1
       '@oslojs/encoding': 1.1.0
-      convex: 1.39.1(react@18.3.1)
+      convex: 1.40.0(react@18.3.1)
       cookie: 1.1.1
       is-network-error: 1.3.2
       jose: 5.10.0
@@ -3613,18 +3620,6 @@ snapshots:
     optionalDependencies:
       '@types/node': 25.7.0
 
-  '@journeyapps-labs/common-sdk@1.0.2(@types/json-schema@7.0.15)':
-    dependencies:
-      '@journeyapps-labs/micro-errors': 1.0.1
-      '@journeyapps-labs/micro-streaming': 1.0.1(@types/json-schema@7.0.15)
-      '@types/node': 24.12.4
-      agentkeepalive: 4.6.0
-      bson: 6.10.4
-      lodash: 4.18.1
-      uuid: 13.0.2
-    transitivePeerDependencies:
-      - '@types/json-schema'
-
   '@journeyapps-labs/common-sdk@1.0.4(@types/json-schema@7.0.15)':
     dependencies:
       '@journeyapps-labs/micro-errors': 1.0.1
@@ -3659,15 +3654,6 @@ snapshots:
       bson: 6.10.4
       ts-codec: 1.3.0
       zod: 4.4.3
-    transitivePeerDependencies:
-      - '@types/json-schema'
-
-  '@journeyapps-labs/micro-streaming@1.0.1(@types/json-schema@7.0.15)':
-    dependencies:
-      '@journeyapps-labs/micro-errors': 1.0.1
-      '@journeyapps-labs/micro-schema': 1.0.3(@types/json-schema@7.0.15)
-      '@types/express': 5.0.6
-      bson: 6.10.4
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -3801,7 +3787,7 @@ snapshots:
       '@tybys/wasm-util': 0.10.2
     optional: true
 
-  '@oclif/core@4.11.2':
+  '@oclif/core@4.11.4':
     dependencies:
       ansi-escapes: 4.3.2
       ansis: 3.17.0
@@ -3814,27 +3800,27 @@ snapshots:
       is-wsl: 2.2.0
       lilconfig: 3.1.3
       minimatch: 10.2.5
-      semver: 7.8.0
+      semver: 7.8.1
       string-width: 4.2.3
       supports-color: 8.1.1
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       widest-line: 3.1.0
       wordwrap: 1.0.0
       wrap-ansi: 7.0.0
 
-  '@oclif/plugin-autocomplete@3.2.49':
+  '@oclif/plugin-autocomplete@3.2.50':
     dependencies:
-      '@oclif/core': 4.11.2
+      '@oclif/core': 4.11.4
       ansis: 3.17.0
       debug: 4.4.3(supports-color@8.1.1)
       ejs: 3.1.10
     transitivePeerDependencies:
       - supports-color
 
-  '@oclif/plugin-commands@4.1.52':
+  '@oclif/plugin-commands@4.1.57':
     dependencies:
-      '@oclif/core': 4.11.2
-      '@oclif/table': 0.5.7
+      '@oclif/core': 4.11.4
+      '@oclif/table': 0.5.9
       lodash: 4.18.1
       object-treeify: 4.0.1
     transitivePeerDependencies:
@@ -3842,27 +3828,27 @@ snapshots:
       - react-devtools-core
       - utf-8-validate
 
-  '@oclif/plugin-help@6.2.48':
+  '@oclif/plugin-help@6.2.50':
     dependencies:
-      '@oclif/core': 4.11.2
+      '@oclif/core': 4.11.4
 
-  '@oclif/plugin-plugins@5.4.67':
+  '@oclif/plugin-plugins@5.4.72':
     dependencies:
-      '@oclif/core': 4.11.2
+      '@oclif/core': 4.11.4
       ansis: 3.17.0
       debug: 4.4.3(supports-color@8.1.1)
-      npm: 11.14.1
+      npm: 11.16.0
       npm-package-arg: 11.0.3
       npm-run-path: 5.3.0
       object-treeify: 4.0.1
-      semver: 7.8.0
+      semver: 7.8.1
       validate-npm-package-name: 5.0.1
       which: 4.0.0
       yarn: 1.22.22
     transitivePeerDependencies:
       - supports-color
 
-  '@oclif/table@0.5.7':
+  '@oclif/table@0.5.9':
     dependencies:
       '@types/react': 18.3.28
       change-case: 5.4.4
@@ -3902,25 +3888,25 @@ snapshots:
 
   '@popperjs/core@2.11.8': {}
 
-  '@powersync/cli-core@0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
+  '@powersync/cli-core@0.9.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
     dependencies:
-      '@journeyapps-labs/common-sdk': 1.0.2(@types/json-schema@7.0.15)
+      '@journeyapps-labs/common-sdk': 1.0.4(@types/json-schema@7.0.15)
       '@journeyapps-labs/micro-errors': 1.0.1
-      '@oclif/core': 4.11.2
-      '@powersync/cli-schemas': 0.9.4(babel-plugin-macros@3.1.0)
-      '@powersync/management-client': 0.0.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
-      '@powersync/management-types': 0.0.5(babel-plugin-macros@3.1.0)
-      '@powersync/service-client': 0.0.3(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
+      '@oclif/core': 4.11.4
+      '@powersync/cli-schemas': 0.9.6(babel-plugin-macros@3.1.0)
+      '@powersync/management-client': 0.1.2(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
+      '@powersync/management-types': 0.2.1(babel-plugin-macros@3.1.0)
+      '@powersync/service-client': 0.0.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
       keychain: 1.5.0
       yaml: 2.9.0
     transitivePeerDependencies:
       - '@types/json-schema'
       - babel-plugin-macros
 
-  '@powersync/cli-plugin-config-edit@0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
+  '@powersync/cli-plugin-config-edit@0.9.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
     dependencies:
-      '@oclif/core': 4.11.2
-      '@powersync/cli-core': 0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
+      '@oclif/core': 4.11.4
+      '@powersync/cli-core': 0.9.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
       open: 11.0.0
       wait-port: 1.1.0
     transitivePeerDependencies:
@@ -3928,12 +3914,12 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  '@powersync/cli-plugin-docker@0.9.4(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)':
+  '@powersync/cli-plugin-docker@0.9.6(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)':
     dependencies:
       '@inquirer/prompts': 7.10.1(@types/node@25.7.0)
-      '@oclif/core': 4.11.2
-      '@powersync/cli-core': 0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
-      '@powersync/cli-schemas': 0.9.4(babel-plugin-macros@3.1.0)
+      '@oclif/core': 4.11.4
+      '@powersync/cli-core': 0.9.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
+      '@powersync/cli-schemas': 0.9.6(babel-plugin-macros@3.1.0)
       '@powersync/service-schema': 1.21.0
       '@powersync/service-types': 0.15.2(babel-plugin-macros@3.1.0)
       yaml: 2.9.0
@@ -3942,9 +3928,9 @@ snapshots:
       - '@types/node'
       - babel-plugin-macros
 
-  '@powersync/cli-schemas@0.9.4(babel-plugin-macros@3.1.0)':
+  '@powersync/cli-schemas@0.9.6(babel-plugin-macros@3.1.0)':
     dependencies:
-      '@powersync/management-types': 0.0.5(babel-plugin-macros@3.1.0)
+      '@powersync/management-types': 0.2.1(babel-plugin-macros@3.1.0)
       '@powersync/service-schema': 1.21.0
       '@powersync/service-types': 0.15.2(babel-plugin-macros@3.1.0)
       ajv: 8.20.0
@@ -3953,37 +3939,37 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@powersync/common@1.53.1':
+  '@powersync/common@1.53.2':
     dependencies:
       event-iterator: 2.0.0
       js-logger: 1.6.1
 
-  '@powersync/management-client@0.0.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
+  '@powersync/management-client@0.1.2(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
     dependencies:
       '@journeyapps-labs/common-sdk': 1.0.4(@types/json-schema@7.0.15)
-      '@powersync/management-types': 0.0.5(babel-plugin-macros@3.1.0)
+      '@powersync/management-types': 0.2.1(babel-plugin-macros@3.1.0)
     transitivePeerDependencies:
       - '@types/json-schema'
       - babel-plugin-macros
 
-  '@powersync/management-types@0.0.5(babel-plugin-macros@3.1.0)':
+  '@powersync/management-types@0.2.1(babel-plugin-macros@3.1.0)':
     dependencies:
       '@journeyapps-labs/micro-codecs': 1.0.3
-      '@powersync/service-types': 0.15.0(babel-plugin-macros@3.1.0)
+      '@powersync/service-types': 0.15.2(babel-plugin-macros@3.1.0)
       bson: 6.10.4
       ts-codec: 1.3.0
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@powersync/react@1.10.0(@powersync/common@1.53.1)(react@18.3.1)':
+  '@powersync/react@1.10.0(@powersync/common@1.53.2)(react@18.3.1)':
     dependencies:
-      '@powersync/common': 1.53.1
+      '@powersync/common': 1.53.2
       react: 18.3.1
 
-  '@powersync/service-client@0.0.3(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
+  '@powersync/service-client@0.0.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)':
     dependencies:
-      '@journeyapps-labs/common-sdk': 1.0.2(@types/json-schema@7.0.15)
-      '@powersync/service-types': 0.15.0(babel-plugin-macros@3.1.0)
+      '@journeyapps-labs/common-sdk': 1.0.4(@types/json-schema@7.0.15)
+      '@powersync/service-types': 0.15.2(babel-plugin-macros@3.1.0)
     transitivePeerDependencies:
       - '@types/json-schema'
       - babel-plugin-macros
@@ -3994,22 +3980,14 @@ snapshots:
 
   '@powersync/service-schema@1.21.0': {}
 
-  '@powersync/service-sync-rules@0.34.1':
+  '@powersync/service-sync-rules@0.36.0':
     dependencies:
       '@powersync/service-jsonbig': 0.17.13
       '@syncpoint/wkx': 0.5.2
       ajv: 8.20.0
       pgsql-ast-parser: 11.2.0
-      uuid: 11.1.1
+      uuid: 14.0.0
       yaml: 2.9.0
-
-  '@powersync/service-types@0.15.0(babel-plugin-macros@3.1.0)':
-    dependencies:
-      dedent: 1.7.2(babel-plugin-macros@3.1.0)
-      ts-codec: 1.3.0
-      uri-js: 4.4.1
-    transitivePeerDependencies:
-      - babel-plugin-macros
 
   '@powersync/service-types@0.15.2(babel-plugin-macros@3.1.0)':
     dependencies:
@@ -4021,10 +3999,10 @@ snapshots:
 
   '@powersync/sync-config-tools@0.1.2': {}
 
-  '@powersync/web@1.38.1(@journeyapps/wa-sqlite@1.7.0)(@powersync/common@1.53.1)':
+  '@powersync/web@1.38.2(@journeyapps/wa-sqlite@1.7.0)(@powersync/common@1.53.2)':
     dependencies:
       '@journeyapps/wa-sqlite': 1.7.0
-      '@powersync/common': 1.53.1
+      '@powersync/common': 1.53.2
       comlink: 4.4.2
       commander: 12.1.0
 
@@ -4424,7 +4402,7 @@ snapshots:
 
   better-ajv-errors@2.0.3(ajv@8.20.0):
     dependencies:
-      '@babel/code-frame': 7.29.0
+      '@babel/code-frame': 7.29.7
       '@humanwhocodes/momoa': 2.0.4
       ajv: 8.20.0
       chalk: 4.1.2
@@ -4433,7 +4411,7 @@ snapshots:
 
   big-integer@1.6.52: {}
 
-  brace-expansion@2.1.0:
+  brace-expansion@2.1.1:
     dependencies:
       balanced-match: 1.0.2
 
@@ -4550,11 +4528,11 @@ snapshots:
 
   convert-to-spaces@2.0.1: {}
 
-  convex@1.39.1(react@18.3.1):
+  convex@1.40.0(react@18.3.1):
     dependencies:
       esbuild: 0.27.0
       prettier: 3.8.3
-      ws: 8.18.0
+      ws: 8.20.1
     optionalDependencies:
       react: 18.3.1
     transitivePeerDependencies:
@@ -4755,8 +4733,8 @@ snapshots:
       process-warning: 5.0.0
       rfdc: 1.4.1
       secure-json-parse: 4.1.0
-      semver: 7.8.0
-      toad-cache: 3.7.0
+      semver: 7.8.1
+      toad-cache: 3.7.1
 
   fastq@1.20.1:
     dependencies:
@@ -4874,7 +4852,7 @@ snapshots:
       type-fest: 4.41.0
       widest-line: 5.0.0
       wrap-ansi: 9.0.2
-      ws: 8.20.1
+      ws: 8.21.0
       yoga-wasm-web: 0.3.3
     optionalDependencies:
       '@types/react': 18.3.28
@@ -4948,7 +4926,7 @@ snapshots:
 
   js-tokens@9.0.1: {}
 
-  js-yaml@4.1.1:
+  js-yaml@4.2.0:
     dependencies:
       argparse: 2.0.1
 
@@ -5114,7 +5092,7 @@ snapshots:
 
   minimatch@5.1.9:
     dependencies:
-      brace-expansion: 2.1.0
+      brace-expansion: 2.1.1
 
   mnemonist@0.40.0:
     dependencies:
@@ -5147,14 +5125,14 @@ snapshots:
     dependencies:
       hosted-git-info: 7.0.2
       proc-log: 4.2.0
-      semver: 7.8.0
+      semver: 7.8.1
       validate-npm-package-name: 5.0.1
 
   npm-run-path@5.3.0:
     dependencies:
       path-key: 4.0.0
 
-  npm@11.14.1: {}
+  npm@11.16.0: {}
 
   oauth4webapi@3.8.6: {}
 
@@ -5210,7 +5188,7 @@ snapshots:
 
   parse-json@5.2.0:
     dependencies:
-      '@babel/code-frame': 7.29.0
+      '@babel/code-frame': 7.29.7
       error-ex: 1.3.4
       json-parse-even-better-errors: 2.3.1
       lines-and-columns: 1.2.4
@@ -5262,7 +5240,7 @@ snapshots:
       real-require: 0.2.0
       safe-stable-stringify: 2.5.0
       sonic-boom: 4.2.1
-      thread-stream: 4.1.0
+      thread-stream: 4.2.0
 
   playwright-core@1.60.0: {}
 
@@ -5280,23 +5258,23 @@ snapshots:
 
   powershell-utils@0.1.0: {}
 
-  powersync@0.9.4(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0):
+  powersync@0.9.6(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0):
     dependencies:
       '@fastify/cors': 10.1.0
       '@inquirer/prompts': 7.10.1(@types/node@25.7.0)
       '@journeyapps-labs/common-utils': 1.0.1
-      '@oclif/core': 4.11.2
-      '@oclif/plugin-autocomplete': 3.2.49
-      '@oclif/plugin-commands': 4.1.52
-      '@oclif/plugin-help': 6.2.48
-      '@oclif/plugin-plugins': 5.4.67
-      '@powersync/cli-core': 0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
-      '@powersync/cli-plugin-config-edit': 0.9.4(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
-      '@powersync/cli-plugin-docker': 0.9.4(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)
-      '@powersync/cli-schemas': 0.9.4(babel-plugin-macros@3.1.0)
-      '@powersync/management-client': 0.0.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
-      '@powersync/management-types': 0.0.5(babel-plugin-macros@3.1.0)
-      '@powersync/service-sync-rules': 0.34.1
+      '@oclif/core': 4.11.4
+      '@oclif/plugin-autocomplete': 3.2.50
+      '@oclif/plugin-commands': 4.1.57
+      '@oclif/plugin-help': 6.2.50
+      '@oclif/plugin-plugins': 5.4.72
+      '@powersync/cli-core': 0.9.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
+      '@powersync/cli-plugin-config-edit': 0.9.6(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
+      '@powersync/cli-plugin-docker': 0.9.6(@types/json-schema@7.0.15)(@types/node@25.7.0)(babel-plugin-macros@3.1.0)
+      '@powersync/cli-schemas': 0.9.6(babel-plugin-macros@3.1.0)
+      '@powersync/management-client': 0.1.2(@types/json-schema@7.0.15)(babel-plugin-macros@3.1.0)
+      '@powersync/management-types': 0.2.1(babel-plugin-macros@3.1.0)
+      '@powersync/service-sync-rules': 0.36.0
       '@powersync/service-types': 0.15.2(babel-plugin-macros@3.1.0)
       '@powersync/sync-config-tools': 0.1.2
       bson: 7.2.0
@@ -5528,7 +5506,7 @@ snapshots:
 
   secure-json-parse@4.1.0: {}
 
-  semver@7.8.0: {}
+  semver@7.8.1: {}
 
   server-only@0.0.1: {}
 
@@ -5634,7 +5612,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  thread-stream@4.1.0:
+  thread-stream@4.2.0:
     dependencies:
       real-require: 1.0.0
 
@@ -5651,6 +5629,11 @@ snapshots:
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
 
+  tinyglobby@0.2.17:
+    dependencies:
+      fdir: 6.5.0(picomatch@4.0.4)
+      picomatch: 4.0.4
+
   tinypool@1.1.1: {}
 
   tinyrainbow@2.0.0: {}
@@ -5661,7 +5644,7 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  toad-cache@3.7.0: {}
+  toad-cache@3.7.1: {}
 
   totalist@3.0.1: {}
 
@@ -5684,8 +5667,6 @@ snapshots:
   uri-js@4.4.1:
     dependencies:
       punycode: 2.3.1
-
-  uuid@11.1.1: {}
 
   uuid@13.0.2: {}
 
@@ -5832,9 +5813,9 @@ snapshots:
       string-width: 7.2.0
       strip-ansi: 7.2.0
 
-  ws@8.18.0: {}
-
   ws@8.20.1: {}
+
+  ws@8.21.0: {}
 
   wsl-utils@0.3.1:
     dependencies:
