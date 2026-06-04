@@ -29,8 +29,8 @@ RUN pnpm install --frozen-lockfile
 
 # Copy the rest of the demo launcher code to the container
 COPY convex/ convex/
-COPY public public
-COPY src src
+COPY public/ public/
+COPY src/ src/
 COPY vite.config.mts vite.config.mts
 COPY tsconfig.json tsconfig.json
 
