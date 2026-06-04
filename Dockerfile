@@ -1,5 +1,8 @@
-# Use Node.js 20 Docker image as base
-FROM node:22
+# This Dockerfile is intended for simple demo deployments of the built Vite app.
+# It keeps the build and preview server in one image so the demo stays easy to run.
+# This can also be used to deploy the Convex backend code to a running Convex backend
+# by using this image to run the `convex deploy` command.
+FROM node:22.22.2
 
 # Needed for front-end builds
 ARG VITE_POWERSYNC_URL=http://localhost:8080
@@ -7,8 +10,9 @@ ARG VITE_CONVEX_URL=http://localhost:3210
 ARG VITE_CONVEX_SITE_URL=http://localhost:3211
 
 # Needed for running the Convex backend dev/deploy commands (in backend mode)
-# This is named for the Convex CLI which requires this variable name
+# CONVEX_SELF_HOSTED_URL is named for the Convex CLI which requires this variable name.
 ENV CONVEX_SELF_HOSTED_URL=http://localhost:3210
+ENV CONVEX_SITE_URL=$VITE_CONVEX_SITE_URL
 
 # Set the working directory inside the container
 WORKDIR /app
